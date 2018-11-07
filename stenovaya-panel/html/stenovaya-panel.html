@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    @@include('./include/layout/css.html')
+
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta property="og:image:width" content="">
+    <meta property="og:image:height" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta name="description" content="">
+    <title>Axioma</title>
+    @@include('./include/layout/libs-js.html')
+</head>
+
+<body>
+    @@include('./include/layout/header.html')
+    @@include('./include/layout/header-mobile.html')
+    <div id="fullpage">
+        @@include('./include/stenovaya-panel/section-1.html')
+        @@include('./include/stenovaya-panel/section-2.html')
+        @@include('./include/stenovaya-panel/section-3.html')
+        @@include('./include/stenovaya-panel/section-4.html')
+        @@include('./include/stenovaya-panel/section-5.html')
+        @@include('./include/layout/footer.html')
+        
+    </div>
+    <script>
+        var mainSlide = document.getElementById('st-main')
+        function setImageSlide(imgName) {
+          mainSlide.setAttribute(
+            'style',
+            'background-image: url(./assets/img/stenovaya-panel/' + imgName + '.jpg);'
+          )
+        }
+      </script>
+</body>
+
+</html>

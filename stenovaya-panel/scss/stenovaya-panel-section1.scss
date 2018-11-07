@@ -1,0 +1,62 @@
+.st-section1 {
+  display: flex;
+  height: calc(100% - 126px);
+  width: 100%;
+  background: #fff;
+  &__left {
+    display: flex;
+    justify-content: flex-end;
+    width: calc(35% - 130px);
+    background-image: url("../img/stenovaya-panel/Block-head.jpg");
+    background-position: -845px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100% - 60px);
+  }
+  &__middle {
+    width: 250px;
+    height: calc(100% - 50px);
+    margin-left: -130px;
+    margin-top: 30px;
+    h1 {
+      font-size: 39px;
+      font-weight: 600;
+      text-align: left;
+      font-family: 'Montserrat-Black';
+    }
+  }
+  &__right {
+    display: flex;
+    justify-content: flex-end;
+    width: calc(65% - 120px);
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 80px;
+    .line {
+      background-color: #333333;
+      width: 140px;
+      height: 10px;
+      display: block;
+      p {
+        font-family: 'Montserrat-Light';
+        font-size: 18px;
+        text-align: left;
+        .section1-container {
+          display: flex;
+          width: 375px;
+          flex-wrap: wrap;
+          flex-direction: row;
+          .imgbox {
+            width: 67px;
+            height: 67px;
+            background-image: url("../img/stenovaya-panel/griid.jpg");
+            margin-bottom: 10px;
+            display: flex;
+            background-repeat: no-repeat;
+            flex: auto 1;
+          }
+        }
+      }
+    }
+  }
+}

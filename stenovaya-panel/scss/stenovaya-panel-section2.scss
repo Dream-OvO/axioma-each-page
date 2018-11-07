@@ -1,0 +1,36 @@
+.st-section2 {
+  display: flex;
+  justify-content: flex-end;
+  height: calc(100% - 126px);
+  background: #fff;
+  &__left {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .section2-content {
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      text-align: center;
+      padding: 0 10px 0 40px;
+      h2 {
+        font-size: 39px;
+        font-weight: 600;
+        font-family: 'Montserrat-Black';
+        text-align: left;
+      }
+      p {
+        font-family: 'Montserrat-Light';
+        font-size: 18px;
+        text-align: left;
+      }
+    }
+  }
+  &__right {
+    justify-content: flex-end;
+    width: 65%;
+    background-image: url("../img/stenovaya-panel/header.jpg");
+    background-size: cover;
+  }
+}

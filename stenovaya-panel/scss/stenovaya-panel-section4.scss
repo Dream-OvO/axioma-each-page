@@ -1,0 +1,28 @@
+.st-section4 {
+  display: flex;
+  height: calc(100% - 126px);
+  background: #fff;
+  &__left {
+    width: 65%;
+    background-image: url(../img/stenovaya-panel/head-list.jpg);
+    background-size: cover;
+  }
+  &__right {
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    .section4-list {
+      width: 270px;
+      height: 105px;
+      margin-left: 30px;
+      display: flex;
+    }
+    span {
+      align-self: center;
+      margin-left: 20px;
+      font-size: 18px;
+      font-family: 'Montserrat-Light';
+    }
+  }
+}

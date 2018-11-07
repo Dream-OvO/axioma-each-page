@@ -1,0 +1,24 @@
+.st-section5 {
+  height: calc(100% - 126px);
+  background: #fff;
+  .st-section5-slide {
+    height: calc(100% - 200px);
+    .st-section5-slide__container {
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+    }
+  }
+ 
+}
+.st-slide-container {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  .st-slide img{
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+  }
+}

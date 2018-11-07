@@ -1,0 +1,33 @@
+.st-section3 {
+  display: flex;
+  height: calc(100% - 126px);
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  background: #fff;
+  &__top {
+    margin-bottom: 40px;
+    .st-section3__title h3 {
+      font-size: 39px;
+      font-family: 'Montserrat-Black';
+      text-align: center;
+    }
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    .description {
+      width: 270px;
+      height: 260px;
+      h1 {
+        font-size: 20px;
+        font-family: 'Montserrat-Light';
+      }
+      p {
+        font-size: 20px;
+        font-family: 'Montserrat-Light';
+      }
+    }
+  }
+}
